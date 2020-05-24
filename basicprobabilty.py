@@ -21,4 +21,6 @@ for i in range(num_trials):
         tails +=1
 
 print("number of heads ", heads)
+print("Percentage of heads ", (heads/num_trials)*100,"%")
 print("number of tails ", tails)
+print("Percentage of heads ",(100-((heads/num_trials)*100)),"%")
